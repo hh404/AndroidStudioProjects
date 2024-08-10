@@ -1,0 +1,56 @@
+# 运行中的Gradle目录
+.gradle/
+build/
+
+# 本地的配置文件
+local.properties
+
+# Android Studio自动生成的文件和目录
+.idea/
+*.iml
+*.hprof
+*.orig
+
+# 外部构建系统生成的文件
+.externalNativeBuild/
+.cxx/
+
+# 日志和临时文件
+*.log
+*.temp
+*.swp
+*.swo
+*~
+
+# Java编译生成的类文件
+*.class
+
+# 备份文件
+*.bak
+
+# Android Studio的用户特定的文件
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/misc.xml
+
+# APK文件和输出文件
+*.apk
+*.ap_
+/captures/
+
+# ProGuard文件
+proguard/
+*.pro
+
+# MacOS特有的系统文件
+.DS_Store
+
+# gradle-wrapper 包含的JAR文件
+/gradle/wrapper/gradle-wrapper.jar
+
+# 不必要上传的JAR包
+*.jar
